@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
-public class ejercicio3 {
+public class EJERCICIO3 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese un número, luego se imprimirá la secuencia");

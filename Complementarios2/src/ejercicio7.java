@@ -1,31 +1,26 @@
 import java.util.Scanner;
 
-public class ejercicio7 {
+public class EJERCICIO7 {
 
-    public static void main(String[] args) {
+    public static <def> void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in);
-        int num1;
-        int num2;
-
+        Scanner scan = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
-        num1 = entrada.nextInt();
+        int numero_1 = scan.nextInt();
         System.out.println("Ingrese el segundo numero");
-        num2 = entrada.nextInt();
+        int numero_2 = scan.nextInt();
 
-        if (num1 < num2) {
-                System.out.println();
-        } else {
-            if (num1 % num2 == 0) {
-                System.out.println("Fizz");
-            } else {
-                System.out.println("Buss");
-            }
-            if (num1 == num2 && num1 % num2 == 0) {
-                System.out.println("FizzBuzz");
 
+        for (var i = 1; i <numero_2; i++) {
+            var result = "";
+            if (i % 2 == 0) {
+                result += "Fizz";
             }
+            if (i % 3 == 0) {
+                result += "Buzz";
+            }
+            boolean resul;
+            System.out.println(result+i);
         }
     }
 }
-

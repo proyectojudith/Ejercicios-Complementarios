@@ -1,4 +1,4 @@
-public class ejercicio9 {
+public class EJERCICIO9 {
          public static int contarCaracteres(String cadenaTexto, char caracter) {
             int pos;
             int contador=0;
@@ -10,7 +10,6 @@ public class ejercicio9 {
             }
             return contador;
         }
-
         public static void main(String [] args)
         {
             int cont=contarCaracteres("Hola Informatorio Java 2020", 'a');

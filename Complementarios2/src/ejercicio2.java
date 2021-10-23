@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ejercicio2 {
+public class EJERCICIO2 {
     public static void main(String[] args) {
         List<Integer> numeros;
         numeros = new
@@ -13,13 +13,10 @@ public class ejercicio2 {
         numeros.add(5);
 
         int length = numeros.size();
-
         System.out.println(numeros);
         System.out.println(length);
-
         System.out.println(0);
         System.out.println(6);
-
         length = numeros.size();
         System.out.println(numeros);
         System.out.println(length);

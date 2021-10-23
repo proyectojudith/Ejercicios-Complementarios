@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class ejercicio6 {
+public class EJERCICIO6 {
 
     public static void main(String[] args) {
         Set<Empleado> empleados = new HashSet<>();
@@ -24,7 +24,6 @@ public class ejercicio6 {
         private final String nombre;
         private final int horasTrabajadas;
         private final int valorHora;
-
         public Empleado(int dni, String nombre, int horasTrabajadas, int valorHora){
             this.dni = dni;
             this.nombre = nombre;
@@ -35,11 +34,9 @@ public class ejercicio6 {
             return dni;
         }
         public String getNombre() {
-
             return nombre;
         }
         public int getHorasTrabajadas() {
-
             return horasTrabajadas;
         }
         public int getValorHora() {

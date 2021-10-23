@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio5 {
-
+public class EJERCICIO5 {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
         System.out.println("Ingrese el primer numero");
@@ -11,5 +10,4 @@ public class ejercicio5 {
         int multiplicar = numero_1 * numero_2;
         System.out.println(numero_1 + " * " + numero_2 + " = " + multiplicar);
     }
-
 }
